@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerCore.Entities", "NLayerCore.Entities\NLayerCore.Entities.csproj", "{BD922DDB-0236-4177-BCA1-17B059F2CD4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayerCore.Entities", "NLayerCore.Entities\NLayerCore.Entities.csproj", "{BD922DDB-0236-4177-BCA1-17B059F2CD4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerCore.Migrations", "NLayerCore.Migrations\NLayerCore.Migrations.csproj", "{B28C0741-E2CB-4B91-95C4-FDCC8D2AAFB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayerCore.Migrations", "NLayerCore.Migrations\NLayerCore.Migrations.csproj", "{B28C0741-E2CB-4B91-95C4-FDCC8D2AAFB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayerCore.ScaffoldDb", "NLayerCore.ScaffoldDb\NLayerCore.ScaffoldDb.csproj", "{55602753-8290-4F79-B32F-0F936CF23196}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerCore.API", "NLayerCore.API\NLayerCore.API.csproj", "{078AA393-DB1A-4246-B48A-EA5579B027D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{B28C0741-E2CB-4B91-95C4-FDCC8D2AAFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B28C0741-E2CB-4B91-95C4-FDCC8D2AAFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B28C0741-E2CB-4B91-95C4-FDCC8D2AAFB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55602753-8290-4F79-B32F-0F936CF23196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55602753-8290-4F79-B32F-0F936CF23196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55602753-8290-4F79-B32F-0F936CF23196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55602753-8290-4F79-B32F-0F936CF23196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{078AA393-DB1A-4246-B48A-EA5579B027D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078AA393-DB1A-4246-B48A-EA5579B027D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{078AA393-DB1A-4246-B48A-EA5579B027D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078AA393-DB1A-4246-B48A-EA5579B027D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
